@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>직원 프로그램</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="font.css">
+</head>
+<body>
+
+<input type="hidden" name="no1" value="">
+
+<table width="500" border="0">
+	<tr>
+		<td align="left"  width="300" valign="bottom">
+			직원이름 : <font color="blue"><b>홍길동</b></font>
+		</td>
+		<td align="right" width="200" valign="bottom">
+			<a href="test2s_new.html?no1=1">신규입력</a>
+		</td>
+	</tr>
+</table>
+
+<table width="500" bgcolor="#eeeeee" class="mytable">
+  <tr bgcolor="#aaaaaa">
+    <td width="100" align="center">가족이름</td>
+    <td width="100" align="center">기족생일</td>
+    <td width="100" align="center">수정/삭제</td>
+  </tr>
+  <tr>
+    <td width="100" align="center">김아버지</td>
+    <td width="100" align="center">1970-01-01</td>
+    <td width="100" align="center">
+		<a href="test2s_edit.html?no1=1&no2=1">수정</a> / 
+		<a href="test2s_delete.html?no1=1&no2=1" onClick="javascript:return confirm('삭제할까요 ?');">삭제</a>
+	</td>
+  </tr>
+  <tr>
+    <td width="100" align="center">이어머니</td>
+    <td width="100" align="center">1972-12-31</td>
+    <td width="100" align="center">
+		<a href="test2s_edit.html?no1=1&no2=1">수정</a> / 
+		<a href="test2s_delete.html?no1=1&no2=2" onClick="javascript:return confirm('삭제할까요 ?');">삭제</a>
+	</td>
+  </tr>
+</table>
+
+<table width="500" border="0">
+  <tr height="35">
+    <td align="center"> 
+	  <input type="button" value="이전화면으로" onclick="javascript:history.back();">
+	</td>
+  </tr>
+</table>
+
+</body>
+</html>

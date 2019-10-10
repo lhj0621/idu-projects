@@ -1,0 +1,6 @@
+한성현	200312004	hsh@induk.ac.kr	comso	4.2	010-4444-5555
+이현준	201512033	abcde621@naver.com	comso	4.0	010-2232-3231
+유응구	200412001	eng@naver.com	soft	4.5	010-1111-2222
+이현준	201712001	qwer@naver.com	comso	3.0	010-1234-5678
+전응섭	200312004	abcde621@naver.com	soft	3.0	010-1234-1111
+고수정	200112003	qwer1234@naver.com	comso	4.3	010-9999-8888

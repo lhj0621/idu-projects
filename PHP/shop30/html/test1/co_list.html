@@ -1,0 +1,70 @@
+<!-------------------------------------------------------------------------------------------->	
+<!-- 프로그램 : 쇼핑몰 따라하기 실습지시서 (실습용 HTML)                                    -->
+<!--                                                                                        -->
+<!-- 만 든 이 : 윤형태 (2008.2.4)                                                           -->
+<!-------------------------------------------------------------------------------------------->	
+<html>
+<head>
+	<title>거래처 프로그램</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="font.css">
+</head>
+<body>
+
+<table width="750" border="0">
+	<form name="form1" method="post" action="co_list.html">
+	<tr>
+		<td width="300">&nbsp
+			거래처명 : <input type="text" name="text1" size="10" value="">
+			<input type="button" value="검색" onClick="javascript:form1.submit();">
+		</td>
+    <td align="right"><a href="co_new.html">입력</a>&nbsp</td>
+	</tr>
+	</form>
+</table>
+
+<table width="750"  border="1" cellpadding="1" cellspacing="0">
+  <tr bgcolor="#555555">
+    <td width="150" align="center"><font color="white">거래처명</font></td>
+    <td width="100" align="center"><font color="white">전화</font></td>
+    <td width="100" align="center"><font color="white">소매/도매</font></td>
+    <td width="100" align="center"><font color="white">창립일</font></td>
+    <td width="250" align="center"><font color="white">주소</font></td>
+    <td width="50"  align="center"><font color="white">삭제</font></td>
+  </tr>
+  <tr bgcolor="#DDDDDD">
+    <td width="150" align="left">&nbsp<a href="co_edit.html?no=1&page=1&text1=">인덕주식회사</a></td>
+    <td width="100" align="center">022-111-1111</td>
+    <td width="100" align="center">소매</td>
+    <td width="100" align="center">1990-01-01</td>
+    <td width="250" align="left">&nbsp 서울 노원구 월계4동 산76 인덕대학</td>
+    <td width="50"  align="center">
+			<a href="co_delete.html?no=1&page=1&text1=" onClick="javascript:return confirm('삭제할까요 ?');">삭제</a>
+		</td>
+  </tr>
+  <tr bgcolor="#DDDDDD">
+    <td width="150" align="left">&nbsp<a href="co_edit.html?no=2&page=1&text1=">태창주식회사</a></td>
+    <td width="100" align="center">02-222-2222</td>
+    <td width="100" align="center">도매</td>
+    <td width="100" align="center">1990-01-01</td>
+    <td width="250" align="left">&nbsp 서울 노원구 월계3동 인덕아파트</td>
+    <td width="50"  align="center">
+			<a href="co_delete.html?no=2&page=1&text1=" onClick="javascript:return confirm('삭제할까요 ?');">삭제</a>
+		</td>
+  </tr>
+</table>
+
+<table width="750" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td height="30" align="center">
+			<img src="images/i_prev.gif" align="absmiddle" border="0"> 
+			<font color="#FC0504"><b>1</b></font>&nbsp;
+			<a href="co_list.html?page=2&text1="><font color="#7C7A77">[2]</font></a>&nbsp;
+			<a href="co_list.html?page=3&text1="><font color="#7C7A77">[3]</font></a>&nbsp;
+			<img src="images/i_next.gif" align="absmiddle" border="0">
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

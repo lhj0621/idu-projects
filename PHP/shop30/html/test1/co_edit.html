@@ -1,0 +1,66 @@
+<!-------------------------------------------------------------------------------------------->	
+<!-- 프로그램 : 쇼핑몰 따라하기 실습지시서 (실습용 HTML)                                    -->
+<!--                                                                                        -->
+<!-- 만 든 이 : 윤형태 (2008.2.4)                                                           -->
+<!-------------------------------------------------------------------------------------------->	
+<html>
+<head>
+	<title>주소록 프로그램</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+
+<form name="form1" method="post" action="co_update.html">
+<input type="hidden" name="no" value="">
+<input type="hidden" name="page" value="">
+<input type="hidden" name="text1" value="">
+
+<form name="form1" method="post" action="co_insert.html">
+<table width="500" border="1" cellpadding="1" cellspacing="0" bgcolor="#DDDDDD">
+  <tr>
+    <td width="100" align="center" bgcolor="#555555"><font color="white">거래처명</font></td>
+    <td width="400" align="left">&nbsp
+      <input type="text" name="coname" size="40" value="인덕주식회사">
+    </td>
+  </tr>
+  <tr>
+    <td width="100" align="center" bgcolor="#555555"><font color="white">전화</font></td>
+    <td width="400" align="left">&nbsp
+      <input type="text" name="phone1" size="3" value="02">-
+      <input type="text" name="phone2" size="4" value="111">-
+      <input type="text" name="phone3" size="4" value="1234">
+    </td>
+  </tr>
+  <tr>
+    <td width="100" align="center" bgcolor="#555555"><font color="white">창립일</font></td>
+    <td width="400" align="left">&nbsp
+      <input type="text" name="startday1" size="4" value="2008">-
+      <input type="text" name="startday2" size="2" value="01">-
+      <input type="text" name="startday3" size="2" value="02"> 
+			&nbsp;&nbsp 
+      <input type="radio" name="gubun" value="0" checked>소매
+      <input type="radio" name="gubun" value="1">도매
+    </td>
+  </tr>
+  <tr>
+    <td width="100" align="center" bgcolor="#555555"><font color="white">주소</font></td>
+    <td width="400" align="left">&nbsp
+      <input type="text" name="address" size="50" value="서울 노원구 월계4동 산76 인덕대학">
+    </td>
+  </tr>
+</table>
+<br>
+<table width="500" border="0">
+  <tr>
+    <td align="center"> 
+		<input type="submit" value="수정"> &nbsp
+		<input type="button" value="이전화면으로" onclick="javascript:history.back();">
+	</td>
+  </tr>
+</table>
+</form>
+
+</body>
+</html>

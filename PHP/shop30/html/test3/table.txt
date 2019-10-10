@@ -1,0 +1,11 @@
+﻿<< 작업순서 >>
+
+1) test3폴더를 html에 복사를 한다.
+
+2) test3.html  --> 추가 test3_new.html  --> test3_insert.html --> test3.html
+                --> 수정 test3_edit.html --> test3_update.html --> test3.html
+                --> 삭제                      test3_delete.html --> test3.html
+
+3) 값 형식     : 번호^^제품명^^수량
+   쿠키 개수   : n_data
+   쿠키값 배열 : data[]

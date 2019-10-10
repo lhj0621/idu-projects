@@ -1,0 +1,5 @@
+<?=$row->id?><br>
+<?=$row->pw?><br>
+<?=$row->email?><br>
+<?=$row->age?><br>
+<?=$row->name?>

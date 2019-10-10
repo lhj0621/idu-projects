@@ -1,0 +1,30 @@
+A:link		{	COLOR: blue; TEXT-DECORATION: none	}
+A:visited	{	COLOR: black; TEXT-DECORATION: none	}
+A:hover		{	COLOR: blue; TEXT-DECORATION: underline	}
+A:active	{  text-decoration: underline; color: #585858	}
+
+TD {	FONT-SIZE: 9pt }
+
+.form {
+	BORDER-RIGHT: #666666 1px solid;
+	BORDER-TOP: #666666 1px solid;
+	FONT-SIZE: 9pt; BORDER-LEFT: #666666 1px solid;
+	COLOR: #666666;
+	BORDER-BOTTOM: #666666 1px solid;
+	face: 돋움
+}
+
+.button{
+    BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid;	FONT-SIZE: 9pt; BORDER-LEFT: #666666 1px solid; FONT-SIZE: 9pt;
+	COLOR: #333333;	 BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #666666 1px solid; HEIGHT: 17px; WIDTH: 80px; face: 돋움
+}
+
+BODY	{ 
+scrollbar-face-color: #ffffff;
+scrollbar-shadow-color: #EEC0E;
+scrollbar-highlight-color: #EEC0E;
+scrollbar-3dlight-color: #ffffff;
+scrollbar-darkshadow-color: #ffffff;
+scrollbar-track-color: #ffffff;
+scrollbar-arrow-color: #EEC0E;
+}
